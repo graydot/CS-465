@@ -13,7 +13,7 @@ var mealsRouter = require('./app_server/routes/meals');
 var newsRouter = require('./app_server/routes/news');
 var aboutRouter = require('./app_server/routes/about');
 var contactRouter = require('./app_server/routes/contact');
-
+require('./app_server/models/db');
 var app = express();
 
 // view engine setup
